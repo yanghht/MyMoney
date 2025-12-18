@@ -48,5 +48,7 @@
   <catalogs>Catalog.СтатусыСобытий</catalogs>
   <documents>Document.ПоступлениеДенег</documents>
   <documents>Document.РасходДенег</documents>
+  <reports>Report.Затраты</reports>
+  <reports>Report.СколькоДенег</reports>
   <accumulationRegisters>AccumulationRegister.ФинансовыеОперации</accumulationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d86ca1ce-a58e-441c-a0e8-62e3d01e7cd1">
+  <producedTypes>
+    <objectType typeId="7dadd50d-1d60-4cc0-805c-3e318c904ab8" valueTypeId="e16afb4d-e50a-4d03-b592-0615941a6050"/>
+    <managerType typeId="bb83dd3d-5413-4dcb-b42a-e8dc3f48a391" valueTypeId="f7350ed5-9847-4825-9c56-60ede1bdbac0"/>
+  </producedTypes>
+  <name>Затраты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="f9eace2b-8001-4549-8a3d-b304b2348e43">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

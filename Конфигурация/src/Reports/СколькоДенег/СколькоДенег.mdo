@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="186e79b7-95c4-4d02-a5f0-07a375f93768">
+  <producedTypes>
+    <objectType typeId="af41a200-4024-458e-a41c-e9470b6bd8dd" valueTypeId="81455b81-634c-4101-ae0d-3f385165a3c0"/>
+    <managerType typeId="0cf5f697-74a4-4a4c-b887-79bfb256637c" valueTypeId="6e587b38-80c3-48c8-a816-ff021615de6d"/>
+  </producedTypes>
+  <name>СколькоДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сколько денег</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

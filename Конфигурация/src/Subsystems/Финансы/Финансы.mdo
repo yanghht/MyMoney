@@ -10,4 +10,6 @@
   <content>Document.ПоступлениеДенег</content>
   <content>Document.РасходДенег</content>
   <content>AccumulationRegister.ФинансовыеОперации</content>
+  <content>Report.Затраты</content>
+  <content>Report.СколькоДенег</content>
 </mdclass:Subsystem>
