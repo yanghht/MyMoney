@@ -46,4 +46,7 @@
   <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.СтатусыДрузей</catalogs>
   <catalogs>Catalog.СтатусыСобытий</catalogs>
+  <documents>Document.ПоступлениеДенег</documents>
+  <documents>Document.РасходДенег</documents>
+  <accumulationRegisters>AccumulationRegister.ФинансовыеОперации</accumulationRegisters>
 </mdclass:Configuration>
