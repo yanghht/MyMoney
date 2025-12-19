@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="186e79b7-95c4-4d02-a5f0-07a375f93768">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d16a2cfa-6f02-4003-8bc0-01f7769e654f">
   <producedTypes>
-    <objectType typeId="af41a200-4024-458e-a41c-e9470b6bd8dd" valueTypeId="81455b81-634c-4101-ae0d-3f385165a3c0"/>
-    <managerType typeId="0cf5f697-74a4-4a4c-b887-79bfb256637c" valueTypeId="6e587b38-80c3-48c8-a816-ff021615de6d"/>
+    <objectType typeId="4e6d4dc0-f8ad-4e09-9ca1-91609f844004" valueTypeId="a711c87d-a267-4bfa-b527-fdbdf514ac7f"/>
+    <managerType typeId="30912afe-1b59-48ed-8cae-dcd11e813c2b" valueTypeId="12101446-2906-4efa-86b1-3aed309dd476"/>
   </producedTypes>
   <name>СколькоДенег</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.СколькоДенег.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="deb948ba-40d8-4db5-b584-29893cf76707">
+  <templates uuid="b25ab9cf-7eef-4507-9d9a-5419403ebbce">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

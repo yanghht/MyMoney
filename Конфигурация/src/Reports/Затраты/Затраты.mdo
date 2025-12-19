@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d86ca1ce-a58e-441c-a0e8-62e3d01e7cd1">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b35a4b7-235f-4ba5-b9ef-02893630b69e">
   <producedTypes>
-    <objectType typeId="7dadd50d-1d60-4cc0-805c-3e318c904ab8" valueTypeId="e16afb4d-e50a-4d03-b592-0615941a6050"/>
-    <managerType typeId="bb83dd3d-5413-4dcb-b42a-e8dc3f48a391" valueTypeId="f7350ed5-9847-4825-9c56-60ede1bdbac0"/>
+    <objectType typeId="79b629da-8783-4831-88b2-9628ce1b82ec" valueTypeId="f9679f0b-58e4-4a00-ba58-99647e01ef30"/>
+    <managerType typeId="e2fff6e2-36e7-4b72-9c82-fbe9509cd5ef" valueTypeId="c37f9d93-02f2-4382-83b0-7c13a2241c75"/>
   </producedTypes>
   <name>Затраты</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.Затраты.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="916eeb8b-b9c9-46b9-bdde-258d6b8438bf">
+  <templates uuid="56acda78-9ff0-4cfe-a94e-ef28556a0c25">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

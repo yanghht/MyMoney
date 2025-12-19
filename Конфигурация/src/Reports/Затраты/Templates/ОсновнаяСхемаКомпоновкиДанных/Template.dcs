@@ -32,16 +32,33 @@
 			<dataPath>СуммаРасход</dataPath>
 			<field>СуммаРасход</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СобытиеДатаСобытия</dataPath>
+			<field>СобытиеДатаСобытия</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ФинансовыеОперацииОстаткиИОбороты.Друг,
 	ФинансовыеОперацииОстаткиИОбороты.Событие,
 	ФинансовыеОперацииОстаткиИОбороты.СуммаОборот,
 	ФинансовыеОперацииОстаткиИОбороты.СуммаПриход,
-	ФинансовыеОперацииОстаткиИОбороты.СуммаРасход
+	ФинансовыеОперацииОстаткиИОбороты.СуммаРасход,
+	ФинансовыеОперацииОстаткиИОбороты.Событие.ДатаСобытия
 ИЗ
 	РегистрНакопления.ФинансовыеОперации.ОстаткиИОбороты КАК ФинансовыеОперацииОстаткиИОбороты</query>
 	</dataSet>
+	<totalField>
+		<dataPath>СуммаОборот</dataPath>
+		<expression>Сумма(СуммаОборот)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПриход</dataPath>
+		<expression>Сумма(СуммаПриход)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаРасход</dataPath>
+		<expression>Сумма(СуммаРасход)</expression>
+	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
 		<title xsi:type="v8:LocalStringType">
@@ -95,6 +112,20 @@
 					<dcsset:field>СуммаРасход</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>СуммаОборот</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>СуммаПриход</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>СуммаРасход</dcsset:field>
+					<dcsset:orderType>Desc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
@@ -123,14 +154,6 @@
 					<dcsset:selection>
 						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 					</dcsset:selection>
-					<dcsset:item xsi:type="dcsset:StructureItemGroup">
-						<dcsset:order>
-							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
-						</dcsset:order>
-						<dcsset:selection>
-							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
-						</dcsset:selection>
-					</dcsset:item>
 				</dcsset:item>
 			</dcsset:item>
 		</dcsset:settings>

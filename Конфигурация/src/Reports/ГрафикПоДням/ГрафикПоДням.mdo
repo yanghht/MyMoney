@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d92085ab-71c7-43ea-9ee9-0136e2a7ccf1">
+  <producedTypes>
+    <objectType typeId="ef4f5df7-7c9f-4c51-8f9a-8b9a8a7cff25" valueTypeId="11ff0e3e-1891-4c5d-9019-d632d1ca4c79"/>
+    <managerType typeId="729da22f-8495-4ef7-add6-e1de865f4ec4" valueTypeId="e67a6516-018b-4a6f-a91f-3ae374b3f24f"/>
+  </producedTypes>
+  <name>ГрафикПоДням</name>
+  <synonym>
+    <key>ru</key>
+    <value>График по дням</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ГрафикПоДням.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="c0079d5d-ec20-434e-869f-1729f51cc754">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

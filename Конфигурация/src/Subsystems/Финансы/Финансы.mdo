@@ -12,4 +12,5 @@
   <content>AccumulationRegister.ФинансовыеОперации</content>
   <content>Report.Затраты</content>
   <content>Report.СколькоДенег</content>
+  <content>Report.ГрафикПоДням</content>
 </mdclass:Subsystem>
